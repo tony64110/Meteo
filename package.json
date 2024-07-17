@@ -4,7 +4,7 @@
   "description": "Application de meteo",
   "main": "server.js",
 "scripts": {
-  "start": "react-scripts start",
+  "start": "start",
   "dev": "nodemon src/index.js"
 }
 ,
