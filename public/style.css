@@ -1,5 +1,6 @@
 ::selection {background: rgba(0,0,0,.1);}
 ::-moz-selection {background: rgba(0,0,0,.1);}
+
 * {
   margin:0;
   padding:0;
@@ -383,4 +384,48 @@ nav button {
 	font-family: 'Artill_Weather';
 	speak: none;
 	-webkit-font-smoothing: antialiased;
+}
+@media screen and (max-width: 768px) {
+  .flipper {
+    font-size: 160px;
+  }
+  .flipper:nth-child(2) {
+    font-size: 108px;
+  }
+  .toggle {
+    width: 70px;
+    height: 70px;
+    font-size: 56px;
+  }
+  .graph {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .flipper {
+    width: 100%;
+    max-width: 200px;
+    font-size: 140px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .flipper:nth-child(2) {
+    max-width: 160px;
+    font-size: 88px;
+  }
+  .toggle {
+    width: 60px;
+    height: 60px;
+    font-size: 48px;
+    margin: 10px 15px;
+  }
+  .graph {
+    font-size: 24px;
+  }
+  .toggles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
