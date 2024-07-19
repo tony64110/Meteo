@@ -1,4 +1,6 @@
-require('dotenv').config({ path: 'config.env' })
+const dotenv = require('dotenv');
+dotenv.config({ path: 'config.env' });
+
 const axios = require('axios')
 const express = require('express')
 const route = express.Router()
