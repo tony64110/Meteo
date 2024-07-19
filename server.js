@@ -1,5 +1,5 @@
-const dotenv = require('dotenv');
-dotenv.config({ path: 'config.env' });
+// const dotenv = require('dotenv');
+// dotenv.config({ path: 'config.env' });
 const express = require('express')
 const router = require('./route/route.js')
 
